@@ -1,83 +1,9 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 100%;
-    /*width: fit-content;*/
-}
-#content1{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 90px;
-}
-
-.c1{
-    display: flex;
-    flex-direction: column;
-}
-.textcash{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-}
-
-.c1 h2{
-    display: inline;
-    font-family: 'Inter';
-    font-size: 40px;
-    line-height: 70px;
-}
-
-#content2, #whatmakes{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: 154px;
-    margin-bottom: 100px;
-    width: 55%;
-}
-#content2 h2, #whatmakes h2{
-    font-size: 42px;
-    line-height: 50px;
-    margin-bottom: 10px;
-}
-
-#content2 p, #frequently p{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;	
-    line-height: 26px;
-    /* or 144% */
-    text-align: center;
-    letter-spacing: -0.04em;
-}
-
-#content3{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    width: 90%;
-    margin-bottom: 137px;
-    align-items: flex-start;
-    height: fit-content;
-}
-
-
 .c3-box {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     margin-left: 30px;
-
     width: 27.5rem;
     height: 20.563rem;
     padding-bottom: 40px;
@@ -86,12 +12,20 @@
     padding: 0 1.875rem;
     padding-top: 1.875rem;
 }
-
+@media (max-width: 640px) {
+    .c3-box
+    {
+        margin-left: 0;
+        width: 100%;
+        padding: 40px 1.875rem;
+        height: fit-content;
+        margin-bottom: 1.563rem;
+    }
+}
 .c3-box h2{
     font-weight: 600;
     font-size: 1.563rem;
     line-height: 26px;
-    /* text-align: center; */
     letter-spacing: -0.04em;
     color: #FFFFFF;
     margin-bottom: 13px;
@@ -107,33 +41,3 @@
     letter-spacing: -0.03em;
     color: #757095;
 }
-.img3{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin: 22px 0;
-}
-
-
-#content5{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-image: url(img/getbosted.png);
-    justify-content: space-between;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* width: 75rem; */
-    /* height: 23.063rem; */
-    /* border-radius: 26px; */
-    margin: auto;
-    margin-bottom: 176px;
-    margin-top: 156px;
-
-}
-/* #whatmakes h2 {
-    font-size: 42px;
-    line-height: 50px;
-    margin-bottom: -18px;
-} */
