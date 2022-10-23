@@ -48,10 +48,10 @@
     margin-bottom: 10px;
 }
 
-#content2 p, #whatmakes p, #frequently p{
+#content2 p, #frequently p{
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 18px;	
     line-height: 26px;
     /* or 144% */
     text-align: center;
@@ -132,8 +132,8 @@
     margin-top: 156px;
 
 }
-#whatmakes h2 {
+/* #whatmakes h2 {
     font-size: 42px;
     line-height: 50px;
     margin-bottom: -18px;
-}
+} */
