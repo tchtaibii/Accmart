@@ -54,6 +54,10 @@
     overflow: hidden;
   }
   
+  .p-s{
+    position: absolute;
+    bottom: 0px;
+}
   .swiper-navBtn{
     color: #6E93f7;
     transition: color 0.3s ease;
