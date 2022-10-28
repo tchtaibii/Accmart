@@ -46,3 +46,18 @@
     letter-spacing: -0.03em;
     color: #757095;
 }
+.swiper{
+    width: 100%;
+    height: 120%;
+    overflow-y: visible;
+}
+.swiper-button-next, .swiper-button-prev{
+    opacity: 0;
+}
+
+span.swiper-pagination-bullet {
+    width: 14px;
+    height: 13px;
+    background-color: transparent;
+    border: 5px solid #75709540;
+}
