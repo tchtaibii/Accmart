@@ -4,6 +4,7 @@ function ft_sc(value, svg)
     var svg = document.getElementById(svg);
     if (p.style.display == 'block')
     {
+        p.style.overflow = 'hidden'
         p.style.display = 'none';
         svg.style.transform ='rotate(180deg)';
     }
