@@ -29,6 +29,10 @@
         height: fit-content;
         margin-bottom: 1.563rem;
     }
+    .price-box
+    {
+      width: 350px;
+    }
 }
 .c3-box h2{
     font-weight: 600;
