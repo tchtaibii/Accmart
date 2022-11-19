@@ -304,6 +304,11 @@ select {
     }
     #w-mb {
         width: 166px;
+        padding-left: 30%;
+    }
+    #w-mb2 {
+        width: 166px;
+        padding-left: 25%;
     }
     .platform, .roleandtank {
         flex-direction: column;
