@@ -284,7 +284,7 @@ select {
     }
     .footer-sc {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 }
 @media (max-width: 401px) {
